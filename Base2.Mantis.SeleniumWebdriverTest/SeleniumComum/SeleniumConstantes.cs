@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Base2.Mantis.SeleniumWebdriverTest
+﻿namespace Base2.Mantis.SeleniumWebdriverTest
 {
     public class SeleniumConstantes
     {
@@ -14,7 +8,14 @@ namespace Base2.Mantis.SeleniumWebdriverTest
         /// </summary>
         /// 
 
+
+        //Setar a string do browser que será executado ( chrome ou phantom)
+        
+        public const string BrowserExecucao = "chrome";
+
+
         // Urls do sistema
+        public const string contexto = "MantisBR";
         public const string urlBase = "http://mantis-prova.base2.com.br";
         public const string urlLogin = "/login_page.php?return=%2Fmy_view_page.php";
         public const string urlHomePage = "/my_view_page.php";
@@ -24,15 +25,15 @@ namespace Base2.Mantis.SeleniumWebdriverTest
         public const string mantisPassword = "rmn@123";
 
 
-        //Diretórios
-        public const string BrowserExecucao = "chrome";
-
-        public const string DirChrome = "./ChromeDriver/chromedriver";
-        public const string DirPhantom = "";
-        public const string DirIE = "./";
 
 
+        // Especificar o diretorio do windows para salvar logs.
+        public static string diretorioLogsRaiz = @"c:\LogsSeleniumB2\";
+        public static string diretorioFolderLog = @"c:\LogsSeleniumB2\Log\";
+        public static string diretorioFolderPrint = @"c:\LogsSeleniumB2\Printscreen\";
 
+        // cabeçalho e rodapé do arquivo de logs
+        public const string quebraLinha = "****************************************************************************************************************************";
 
 
     }

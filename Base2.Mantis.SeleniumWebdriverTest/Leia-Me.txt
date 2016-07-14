@@ -1,8 +1,11 @@
 ﻿
-Informações do projeto
+**** Informações do projeto ****
 
+Ambiente de Desenvolvimento: 
+- Windows 10
 
-Visual Studio 2015
+FrameWork:
+- Visual Studio 2015
 
 Extensões adicionadas pelo NUget:
 1. Selenium.Webdriver;
@@ -11,9 +14,19 @@ Extensões adicionadas pelo NUget:
 4. NUnitTestAdapter;
 5. ExcelDataReader
 6. WebDriver.ChromeDriver.win32
+7. PhantomJSDriver
+
+Extensão adicionada para carregar testes no testexplorer
+http://stackoverflow.com/questions/19298347/nunit-unit-tests-not-showing-in-test-explorer-with-test-adapter-is-installed#
+Install "NUnit Test Adapter"
+Tools -> Extensions And Updates -> Online -> Search for "Nunit Test Adapter" -> Click on "NUnit Test Adapter" in results list -> Click on Download button
+
 
 Downloads 
 1 Chrome driver (http://chromedriver.storage.googleapis.com/index.html?path=2.22/);
-2 Problema de compatibilidade com Firefox  47.0 (http://stackoverflow.com/questions/37693106/selenium-2-53-not-working-on-firefox-47)
+2 
+
+TO-DO
+Problema de compatibilidade com Firefox  47.0 (http://stackoverflow.com/questions/37693106/selenium-2-53-not-working-on-firefox-47)
 
 

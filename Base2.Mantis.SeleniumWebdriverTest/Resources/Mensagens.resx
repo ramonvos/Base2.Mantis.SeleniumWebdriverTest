@@ -123,6 +123,9 @@
   <data name="msgBugCampoSumarioObrig" xml:space="preserve">
     <value>A necessary field "Summary" was empty. Please recheck your inputs.</value>
   </data>
+  <data name="msgBugSucesso" xml:space="preserve">
+    <value>Operation successful.</value>
+  </data>
   <data name="msgLoginInvalido" xml:space="preserve">
     <value>Your account may be disabled or blocked or the username/password you entered is incorrect.</value>
   </data>

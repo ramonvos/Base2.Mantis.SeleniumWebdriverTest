@@ -31,7 +31,11 @@ namespace Base2.Mantis.SeleniumWebdriverTest
         [FindsBy(How = How.CssSelector, Using = "td.login-info-left")]
         public IWebElement msgSucessoLogin { get; set; }
 
+        [FindsBy(How = How.LinkText, Using = "Logout")]
+        public IWebElement linkLogout { get; set; }
 
+        [FindsBy(How = How.LinkText, Using = "Lost your password?")]
+        public IWebElement linkForgot { get; set; }
 
         public void realizarLogin(string usuario, string senha)
         {
@@ -39,6 +43,20 @@ namespace Base2.Mantis.SeleniumWebdriverTest
             SeleniumMetodosSet.preencherTexto(txtSenha, senha);
 
             SeleniumMetodosSet.clicarElemento(btnLogin);
+        }
+
+        public void realizarLogout()
+        {
+            try
+            {
+                SeleniumMetodosSet.clicarElemento(linkLogout);
+            }
+            catch
+            {
+                SeleniumBase.driver.Manage().Cookies.DeleteAllCookies();
+                SeleniumBase.driver.Navigate().GoToUrl(SeleniumConstantes.urlBase);
+                
+            }
         }
 
     }

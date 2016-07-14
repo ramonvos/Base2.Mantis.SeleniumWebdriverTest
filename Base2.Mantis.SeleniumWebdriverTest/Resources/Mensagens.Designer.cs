@@ -79,6 +79,15 @@ namespace Base2.Mantis.SeleniumWebdriverTest.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Operation successful..
+        /// </summary>
+        internal static string msgBugSucesso {
+            get {
+                return ResourceManager.GetString("msgBugSucesso", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Your account may be disabled or blocked or the username/password you entered is incorrect..
         /// </summary>
         internal static string msgLoginInvalido {

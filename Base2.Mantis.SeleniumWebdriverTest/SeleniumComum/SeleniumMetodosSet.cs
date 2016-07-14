@@ -2,12 +2,8 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Base2.Mantis.SeleniumWebdriverTest
 {
@@ -17,9 +13,9 @@ namespace Base2.Mantis.SeleniumWebdriverTest
 
         /// <summary>
         /// ramon.souza
-        /// Classe de iteração com elementos (Sendkeys, clicks, Asserts..
+        /// Classe de iteração com elementos (Sendkeys, clicks, Asserts..)
+        /// Todos os testes passam por esta classe, rensável por gravar logs e printscreen
         /// </summary>
-
 
         // Método para preencher campos de texto
         public static void preencherTexto(IWebElement elemento, string valor)
@@ -39,7 +35,6 @@ namespace Base2.Mantis.SeleniumWebdriverTest
         // Método para selecionar elementos (drop down list/combobox)
         public static void selecionarElemento(IWebElement elemento, string valor)
         {
-            
             new SelectElement(elemento).SelectByText(valor);
         }
 
@@ -47,8 +42,15 @@ namespace Base2.Mantis.SeleniumWebdriverTest
         public static void validaMensagemEsperada(IWebElement elemento, string mensagem)
         {
             esperarTexto(elemento, mensagem);
-            Assert.AreEqual(mensagem, elemento.Text);
 
+            try
+            {
+                Assert.AreEqual(mensagem, elemento.Text);
+            }
+            catch
+            {
+                Assert.IsTrue(elemento.Text.Contains(mensagem));
+            }
             //Console.WriteLine(elemento.Text);
             // Print Screen de sucesso
 
@@ -61,11 +63,8 @@ namespace Base2.Mantis.SeleniumWebdriverTest
             SeleniumUteis.gerarPrintscreen();
             SeleniumUteis.gravarLogTxt("SUCESSO - Teste '" + methodBase.Name + "' Executado com sucesso!");
             SeleniumUteis.gravarLogTxt("     Mensagem '" + SeleniumMetodosGet.GetLabel(elemento) + "' validada com sucesso.");
-            
-
 
         }
-
         // Método para esperar elemento "Espera explícita"
         public static void esperarElemento(IWebElement elemento)
         {
@@ -101,11 +100,9 @@ namespace Base2.Mantis.SeleniumWebdriverTest
                 SeleniumUteis.gerarPrintscreen();
                 SeleniumUteis.gravarLogStacktrace(" Mensagem esperada: '" + valor + "'.");
                 Assert.Fail("O elemento: '" + UltimoErro + "' -'" + valor + "' não apareceu");
-                
             }
 
         }
-
 
     }
 }

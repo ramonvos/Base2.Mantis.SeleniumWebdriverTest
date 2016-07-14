@@ -1,18 +1,17 @@
-﻿using NUnit.Framework;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
 using System;
-using System.Diagnostics;
+using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
+using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Base2.Mantis.SeleniumWebdriverTest
 {
-    public class SeleniumMetodosGet : SeleniumUteis
+    class SeleniumMetodosGet
     {
-
-        public static string GetText(IWebElement elemento)
+        public static string GetLabel(IWebElement element)
         {
             for (int second = 0; ; second++)
             {
@@ -23,7 +22,7 @@ namespace Base2.Mantis.SeleniumWebdriverTest
                 }
                 try
                 {
-                    if (elemento.Displayed) break;
+                    if (element.Displayed) break;
 
                 }
                 catch (Exception e)
@@ -32,42 +31,7 @@ namespace Base2.Mantis.SeleniumWebdriverTest
                 }
                 Thread.Sleep(1000);
             }
-
-            return (elemento).GetAttribute("value");
-        }
-
-        public static string GetTextFromDDL(IWebElement elemento)
-        {
-            return new SelectElement((elemento)).AllSelectedOptions.SingleOrDefault().Text;
-
-        }
-
-        public static string GetTitle()
-        {
-            return SeleniumBase.driver.Title;
-        }
-        public static string GetLabel(IWebElement elemento)
-        {
-            for (int second = 0; ; second++)
-            {
-                if (second >= 10)
-                {
-                    SeleniumUteis.gravarLogStacktrace(".");
-                    Assert.Fail("O elemento: '" + SeleniumMetodosSet.UltimoErro + "' não apareceu");
-                }
-                try
-                {
-                    if (elemento.Displayed) break;
-
-                }
-                catch (Exception e)
-                {
-                    SeleniumMetodosSet.UltimoErro = e.Message;
-                }
-                Thread.Sleep(1000);
-            }
-            return (elemento).Text;
+            return (element).Text;
         }
     }
 }
-

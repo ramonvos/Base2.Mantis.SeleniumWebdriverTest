@@ -1,11 +1,5 @@
 ﻿using Base2.Mantis.SeleniumWebdriverTest.Resources;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Resources;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Base2.Mantis.SeleniumWebdriverTest
 {
@@ -14,19 +8,19 @@ namespace Base2.Mantis.SeleniumWebdriverTest
         LoginPageObjects login = new LoginPageObjects();
 
         [Test]
-        public void CT001_realizarLoginFalhaUsuarioNaoInformado()
+        public void CT001_realizarLoginFalhaSenhaInvalida()
         {
             
-            login.realizarLogin("", "123456");
+            login.realizarLogin(SeleniumConstantes.mantisUsername, "123456");
 
             SeleniumMetodosSet.validaMensagemEsperada(login.msgFalhaLogin, Mensagens.msgLoginInvalido);
 
         }
         [Test]
-        public void CT002_realizarLoginFalhaSenhaNaoInformada()
+        public void CT002_realizarLoginFalhaUsuarioInvalido()
         {
                      
-            login.realizarLogin("nao.existe", "");
+            login.realizarLogin("nao.existe", SeleniumConstantes.mantisPassword);
 
             SeleniumMetodosSet.validaMensagemEsperada(login.msgFalhaLogin, Mensagens.msgLoginInvalido);
 
@@ -44,31 +38,20 @@ namespace Base2.Mantis.SeleniumWebdriverTest
         public void CT004_realizarLoginSucesso()
         {
 
-            login.realizarLogin("ramon.souza", "rmn@123");
+            login.realizarLogin(SeleniumConstantes.mantisUsername, SeleniumConstantes.mantisPassword);
 
             SeleniumMetodosSet.validaMensagemEsperada(login.msgSucessoLogin, Mensagens.msgLoginSucesso);
 
         }
 
-        /*
-          [Test]
-        public void LoginTest2() {
-            LoginPageObject page = new LoginPageObject();
+        [Test]
+        public void CT005_realizarLogoutSucesso()
+        {
+            login.realizarLogout();
 
-            VerificarContexto();
+            SeleniumMetodosSet.validaMensagemEsperada(login.linkForgot, "Lost your password?");
 
-            ExcelUtil.PopulateInCollection(@"C:\DataFile.xlsx");
-            
-            
-            page.PreencheLogin(ExcelUtil.ReadData(1, "User"), ExcelUtil.ReadData(1, "Pass"));
-                        
-            //Submit
-            page.ClickLogin();
-
-            SeleniumUteis.GravarLogTxt("Seja bem vindo!");
-                           
-        }*/
-
-
+        }
+        
     }
 }
