@@ -126,6 +126,28 @@ namespace Base2.Mantis.SeleniumWebdriverTest
             return strAppDir + strAppFolderData;
         }
 
+        public static void acessarContexto(IWebElement elemento)
+        {
+            SeleniumBase.driver.Navigate().GoToUrl(SeleniumConstantes.urlBase + SeleniumConstantes.urlHomePage);
+            if (SeleniumBase.driver.Title == "My View - MantisBT")
+            {
+                SeleniumMetodosSet.clicarElemento(elemento);
+            }
+            else
+            {
+                SeleniumBase.driver.Manage().Cookies.DeleteAllCookies();
+                SeleniumBase.driver.Navigate().GoToUrl(SeleniumConstantes.urlBase + SeleniumConstantes.urlLogin);
+                LoginPageObjects login = new LoginPageObjects();
+                login.realizarLogin(SeleniumConstantes.mantisUsername, SeleniumConstantes.mantisPassword);
+                SeleniumMetodosSet.clicarElemento(elemento);
+
+                // Abrir e Carregar os dados do excel (arquivo .xlsx)
+                //ExcelUtil.PopulateInCollection(SeleniumUteis.getPathDataDriven() + "\\bugReportData.xlsx");
+            }
+        }
+
+
+
         //Verificar alertas presentes
         public bool IsAlertPresent()
         {

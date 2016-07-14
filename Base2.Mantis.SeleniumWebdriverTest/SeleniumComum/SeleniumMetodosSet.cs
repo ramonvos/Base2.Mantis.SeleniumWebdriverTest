@@ -32,6 +32,13 @@ namespace Base2.Mantis.SeleniumWebdriverTest
             elemento.Click();
         }
 
+        public static void clicarLinkTexto(string valor)
+        {
+            
+            SeleniumBase.driver.FindElement(By.LinkText(valor)).Click();
+
+        }
+
         // Método para selecionar elementos (drop down list/combobox)
         public static void selecionarElemento(IWebElement elemento, string valor)
         {

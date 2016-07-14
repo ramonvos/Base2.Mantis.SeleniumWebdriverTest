@@ -104,5 +104,14 @@ namespace Base2.Mantis.SeleniumWebdriverTest.Resources {
                 return ResourceManager.GetString("msgLoginSucesso", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View Issue Details [ Jump to Notes ] [ Send a reminder ].
+        /// </summary>
+        internal static string msgVerBug {
+            get {
+                return ResourceManager.GetString("msgVerBug", resourceCulture);
+            }
+        }
     }
 }

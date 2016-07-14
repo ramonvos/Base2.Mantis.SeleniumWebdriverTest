@@ -107,9 +107,11 @@
     <Compile Include="SeleniumComum\SeleniumMetodosSet.cs" />
     <Compile Include="SeleniumComum\SeleniumUteis.cs" />
     <Compile Include="SeleniumPageObjects\BugReportPageObjects.cs" />
+    <Compile Include="SeleniumPageObjects\BugViewPageObjects.cs" />
     <Compile Include="SeleniumPageObjects\LoginPageObjects.cs" />
     <Compile Include="SeleniumTestes\BugReportTestCase.cs" />
     <Compile Include="SeleniumTestes\LoginTestCase.cs" />
+    <Compile Include="SeleniumTestes\PesquisarBugsTestCases.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\packages\PhantomJS.2.1.1\tools\phantomjs\phantomjs.exe">
