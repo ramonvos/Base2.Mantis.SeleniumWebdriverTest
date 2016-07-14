@@ -1,0 +1,19 @@
+﻿
+Informações do projeto
+
+
+Visual Studio 2015
+
+Extensões adicionadas pelo NUget:
+1. Selenium.Webdriver;
+2. Selenium.Support;
+3. NUnit;
+4. NUnitTestAdapter;
+5. ExcelDataReader
+6. WebDriver.ChromeDriver.win32
+
+Downloads 
+1 Chrome driver (http://chromedriver.storage.googleapis.com/index.html?path=2.22/);
+2 Problema de compatibilidade com Firefox  47.0 (http://stackoverflow.com/questions/37693106/selenium-2-53-not-working-on-firefox-47)
+
+
