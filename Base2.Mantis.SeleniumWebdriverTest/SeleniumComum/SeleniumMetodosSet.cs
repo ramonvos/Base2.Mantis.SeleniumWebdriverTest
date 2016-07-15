@@ -30,6 +30,7 @@ namespace Base2.Mantis.SeleniumWebdriverTest
         {
             esperarElemento(elemento);
             elemento.Click();
+            
         }
 
         public static void clicarLinkTexto(string valor)

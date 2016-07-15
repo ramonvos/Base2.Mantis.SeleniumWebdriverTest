@@ -13,7 +13,6 @@
         
         public const string BrowserExecucao = "chrome";
 
-
         // Urls do sistema
         public const string contexto = "MantisBR";
         public const string urlBase = "http://mantis-prova.base2.com.br";
@@ -23,9 +22,6 @@
         // Dados de login
         public const string mantisUsername = "ramon.souza";
         public const string mantisPassword = "rmn@123";
-
-
-
 
         // Especificar o diretorio do windows para salvar logs.
         public static string diretorioLogsRaiz = @"c:\LogsSeleniumB2\";

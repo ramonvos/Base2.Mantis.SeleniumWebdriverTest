@@ -88,6 +88,15 @@ namespace Base2.Mantis.SeleniumWebdriverTest.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Are you sure you wish to delete these issues?.
+        /// </summary>
+        internal static string msgExcluirBug {
+            get {
+                return ResourceManager.GetString("msgExcluirBug", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Your account may be disabled or blocked or the username/password you entered is incorrect..
         /// </summary>
         internal static string msgLoginInvalido {
@@ -102,6 +111,15 @@ namespace Base2.Mantis.SeleniumWebdriverTest.Resources {
         internal static string msgLoginSucesso {
             get {
                 return ResourceManager.GetString("msgLoginSucesso", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A number was expected for bug_id..
+        /// </summary>
+        internal static string msgNumeroBugNaoExiste {
+            get {
+                return ResourceManager.GetString("msgNumeroBugNaoExiste", resourceCulture);
             }
         }
         

@@ -126,11 +126,17 @@
   <data name="msgBugSucesso" xml:space="preserve">
     <value>Operation successful.</value>
   </data>
+  <data name="msgExcluirBug" xml:space="preserve">
+    <value>Are you sure you wish to delete these issues?</value>
+  </data>
   <data name="msgLoginInvalido" xml:space="preserve">
     <value>Your account may be disabled or blocked or the username/password you entered is incorrect.</value>
   </data>
   <data name="msgLoginSucesso" xml:space="preserve">
     <value>Logged in as: ramon.souza (Ramon Souza - manager)</value>
+  </data>
+  <data name="msgNumeroBugNaoExiste" xml:space="preserve">
+    <value>A number was expected for bug_id.</value>
   </data>
   <data name="msgVerBug" xml:space="preserve">
     <value>View Issue Details [ Jump to Notes ] [ Send a reminder ]</value>

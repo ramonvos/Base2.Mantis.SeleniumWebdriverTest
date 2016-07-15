@@ -4,16 +4,18 @@ using NUnit.Framework;
 namespace Base2.Mantis.SeleniumWebdriverTest.SeleniumTestes
 {
 
-    class BugReportTestCase
+    class CadastrarBugsTestCase
     {
-        BugReportPageObjects bug = new BugReportPageObjects();
+        BugPageObjects bug = new BugPageObjects();
+        
      
         [Test]
         public void CT006_cadastrarNovoBugFalhaCampoSumarioNaoPreenchido() {
 
             bug.acessarContexto();
 
-                bug.preencherNewBug(ExcelUtil.ReadData(1, "Category"),
+            ExcelUtil.PopulateInCollection(SeleniumUteis.getPathDataDriven() + "\\bugReportData.xlsx");
+            bug.preencherNovoBug(ExcelUtil.ReadData(1, "Category"),
                 ExcelUtil.ReadData(1, "Reproducibility"),
                 ExcelUtil.ReadData(1, "Severity"),
                 ExcelUtil.ReadData(1, "Priority"),
@@ -33,9 +35,10 @@ namespace Base2.Mantis.SeleniumWebdriverTest.SeleniumTestes
         [Test]
         public void CT007_cadastrarNovoBugFalhaCampoDescricaoNaoPreenchido()
         {
-            bug.acessarContexto();
+            //ExcelUtil.PopulateInCollection(SeleniumUteis.getPathDataDriven() + "\\bugReportData.xlsx");
+            bug.acessarContexto(); 
 
-            bug.preencherNewBug(ExcelUtil.ReadData(1, "Category"),
+            bug.preencherNovoBug(ExcelUtil.ReadData(1, "Category"),
                 ExcelUtil.ReadData(1, "Reproducibility"),
                 ExcelUtil.ReadData(1, "Severity"),
                 ExcelUtil.ReadData(1, "Priority"),
@@ -54,12 +57,12 @@ namespace Base2.Mantis.SeleniumWebdriverTest.SeleniumTestes
 
         }
         [Test]
-        public void CT010_cadastrarNovoBugSucesso()
+        public void CT008_cadastrarNovoBugSucesso()
         {
-
+            //ExcelUtil.PopulateInCollection(SeleniumUteis.getPathDataDriven() + "\\bugReportData.xlsx");
             bug.acessarContexto();
 
-            bug.preencherNewBug(ExcelUtil.ReadData( 1 , "Category"),
+            bug.preencherNovoBug(ExcelUtil.ReadData( 1 , "Category"),
                 ExcelUtil.ReadData(1, "Reproducibility"),
                 ExcelUtil.ReadData(1, "Severity"),
                 ExcelUtil.ReadData(1, "Priority"),

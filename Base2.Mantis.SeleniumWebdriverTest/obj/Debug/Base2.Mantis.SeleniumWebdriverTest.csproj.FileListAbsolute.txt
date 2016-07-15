@@ -23,24 +23,6 @@ c:\users\ramon.souza\documents\visual studio 2015\Projects\Base2.Mantis.Selenium
 c:\users\ramon.souza\documents\visual studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
 c:\users\ramon.souza\documents\visual studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.csprojResolveAssemblyReference.cache
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\chromedriver.exe
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Base2.Mantis.SeleniumWebdriverTest.dll
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Base2.Mantis.SeleniumWebdriverTest.pdb
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Excel.dll
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\ICSharpCode.SharpZipLib.dll
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\nunit.framework.dll
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\WebDriver.dll
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\WebDriver.Support.dll
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Excel.pdb
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\nunit.framework.xml
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\WebDriver.xml
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\WebDriver.Support.xml
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.csprojResolveAssemblyReference.cache
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.Resources.Mensagens.resources
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.csproj.GenerateResource.Cache
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.dll
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.pdb
 C:\Users\ramon.souza\Documents\GitHub\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\chromedriver.exe
 C:\Users\ramon.souza\Documents\GitHub\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Base2.Mantis.SeleniumWebdriverTest.dll
 C:\Users\ramon.souza\Documents\GitHub\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Base2.Mantis.SeleniumWebdriverTest.pdb
@@ -70,3 +52,26 @@ C:\Users\ramon.souza\Documents\GitHub\Base2.Mantis.SeleniumWebdriverTest\Base2.M
 C:\Users\ramon.souza\Documents\GitHub\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\phantomjs-license.txt
 C:\Users\ramon.souza\Documents\GitHub\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\SeleniumComum\Drivers\chromedriver.exe
 C:\Users\ramon.souza\Documents\GitHub\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\SeleniumComum\Drivers\phantomjs.exe
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\SeleniumComum\Drivers\chromedriver.exe
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\phantomjs.exe
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\phantomjs-license.txt
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\SeleniumComum\Drivers\phantomjs.exe
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\DataDriven\Arquivos\bugReportData.xlsx
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Excel.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\nunit.framework.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\WebDriver.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\WebDriver.Support.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Excel.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\nunit.framework.xml
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\WebDriver.xml
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\WebDriver.Support.xml
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.Resources.Mensagens.resources
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.csproj.GenerateResource.Cache
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Base2.Mantis.SeleniumWebdriverTest.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Base2.Mantis.SeleniumWebdriverTest.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.csprojResolveAssemblyReference.cache

@@ -89,10 +89,10 @@ namespace Base2.Mantis.SeleniumWebdriverTest
                 SeleniumUteis.gravarLogTxt(tmp);
                 SeleniumUteis.gravarLogTxt(SeleniumConstantes.quebraLinha);
 
+                driver.Dispose();
                 Process.Start(SeleniumConstantes.diretorioLogsRaiz);
-
                 driver.Close();
-                Assert.AreEqual("", verificationErrors.ToString());
+                
 
             }
         }
