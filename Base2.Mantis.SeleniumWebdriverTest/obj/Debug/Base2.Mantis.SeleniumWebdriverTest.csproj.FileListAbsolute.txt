@@ -75,3 +75,4 @@ C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdri
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Base2.Mantis.SeleniumWebdriverTest.dll
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\Base2.Mantis.SeleniumWebdriverTest.pdb
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\obj\Debug\Base2.Mantis.SeleniumWebdriverTest.csprojResolveAssemblyReference.cache
+C:\Users\ramon.souza\Documents\GitHub\Base2.Mantis.SeleniumWebdriverTest\Base2.Mantis.SeleniumWebdriverTest\bin\Debug\RelevantCodes.ExtentReports.dll
